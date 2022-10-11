@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 // calculate factorial of any number...
 class Factorial
 {
@@ -7,16 +7,16 @@ class Factorial
 	{
          long n,fact=1;
 		Scanner sc=new Scanner(System.in);
-		System.out.println("enter number");
+		System.out.print("enter number : ");
 	   
             n=sc.nextLong();// this will take input any number from user
  
 	    for(int i=1;i<=n;i++)
 	    {
 	
-	    fact=fact*i;
+	    fact=fact*i; // calculate the factorial of a number 
  	    }
-  	    System.out.println("fact="+fact);
+  	    System.out.printf("fact = ",fact);
  	}
 }
  
