@@ -1,14 +1,18 @@
 //Hey,This is the java code for finding square of any number! - NikhilSharma
 
-import java.util.*;
+import java.util.Scanner;
 
 class SquareOfNum {
     public static void main(String[] args) {
-          
+    
+    Scanner sc=new Scanner (System.in);
+    // getting a number from user
+    int number=sc.nextInt();
+   
       //Square a Number
-     double x = 5;
-     double z = x * x;
-     System.out.println(z);
+    
+     double z = number * number;
+     System.out.printf("The square root numbet is : ",z);
 
       
       }
