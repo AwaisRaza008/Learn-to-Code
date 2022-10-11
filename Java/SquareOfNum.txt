@@ -4,10 +4,12 @@ import java.util.*;
 
 class SquareOfNum {
     public static void main(String[] args) {
-          
+        Scanner sc=new Scanner (System.in);
+        System.out.print("Enter a number "); // getting number from user
+        double number=sc.nextInt();
       //Square a Number
-     double x = 5;
-     double z = x * x;
+     double z = number * number;
+    
      System.out.println(z);
 
       
